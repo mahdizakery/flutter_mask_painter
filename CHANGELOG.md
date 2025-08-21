@@ -3,3 +3,6 @@
 - Initial release.
 - Draw and export mask layers on images.
 - Undo/redo, adjustable brush, mask export, and controller utilities.
+
+## 1.0.1
+- Readme.md update

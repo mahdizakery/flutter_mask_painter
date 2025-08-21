@@ -1,6 +1,6 @@
 name: flutter_mask_painter
 description: "A Flutter widget for drawing and exporting mask layers on images."
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/mahdizakery/flutter_mask_painter
 repository: https://github.com/mahdizakery/flutter_mask_painter
 
