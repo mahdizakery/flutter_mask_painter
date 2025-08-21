@@ -1,7 +1,6 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'dart:io';
 import 'package:flutter_mask_painter/flutter_mask_painter.dart';
 import 'package:flutter_mask_painter/mask_painter_controller.dart';
 import 'package:image_picker/image_picker.dart';
@@ -45,7 +44,6 @@ class _MaskPainterExampleState extends State<MaskPainterExample> {
   XFile? _savedMask;
   String _statusMessage = 'Select an image to start drawing mask';
   bool _showMaskPreview = false;
-  bool _hasStrokes = false;
 
   Future<void> _pickImage() async {
     try {
@@ -374,7 +372,6 @@ class _MaskPainterExampleState extends State<MaskPainterExample> {
               Expanded(
                 child: ElevatedButton.icon(
             onPressed: _controller.hasStrokes ? (){
-              print(  'Exporting mask...');
               _controller.saveMask();
             } : null,
                   icon: const Icon(Icons.save),
