@@ -24,9 +24,9 @@ A Flutter widget for drawing and exporting mask layers (black and white) on top 
 
 <!-- Add your screenshots here -->
 <p align="center">
-  <img src="assets/screenshot1.png" height="300" />
+  <img src="https://raw.githubusercontent.com/mahdizakery/flutter_mask_painter/refs/heads/main/assets/screenshot1.png" height="300" />
     &nbsp;&nbsp;
-  <img src="assets/screenshot2.png" height="300" />
+  <img src="https://raw.githubusercontent.com/mahdizakery/flutter_mask_painter/refs/heads/main/assets/screenshot2.png" height="300" />
 </p>
 
 ## Getting Started
